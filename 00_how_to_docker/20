@@ -1,0 +1,2 @@
+export IP_CHAR="$(docker-machine ip Char)"
+docker swarm init --advertise-addr $IP_CHAR
